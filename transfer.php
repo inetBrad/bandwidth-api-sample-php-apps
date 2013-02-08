@@ -2,11 +2,11 @@
 	/* Sample App:Transfer a Phone Call */
 	/* TODO: EDIT Your User Id, Token and Secret */
 	/*------------------------------------------- */
-	$userID = "u-phn4phn4phn4phn4phn4phn"; 
-	$token = "t-phn4phn4phn4phn4phn4phn4";
-	$secret = "phn4phn4phn4phn4phn4phn4phn4phn4phn4phn4";
+	$userID = "u-phn4oes256bubktpasfkq3i";
+	$token = "t-rcpn6rqsg3rdniqimy2n5bi";
+	$secret = "fy6uipvrssldn4uz5wjri5xh7h5xamb3mpel6wa";
 	
-	$transfer_to_number = "+15555555555";
+	$transfer_to_number = "+15032602838";
 	
 	/* NOTE: YOU DO NOT NEED TO EDIT ANYTHING BELOW THIS LINE */
 	$restBaseURI = "https://api.catapult.inetwork.com/v1/users/$userID"; // Set the API URI base
@@ -31,7 +31,7 @@
 
 
 		// set the resource for Text-To-Speech to the current call 
-		$resource = "/calls/".$call_id.;  							
+		$resource = "/calls/".$call_id;  							
 
 		// Pack the data into a JSON-friendly array
 		$data_string = json_encode($data); 
