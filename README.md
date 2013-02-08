@@ -25,3 +25,11 @@ Basic IVR - basic-ivr.php
 3) Login to the Web Console, proceed to "My Apps", set the URL for Calls to http://yourserver/basic-ivr.php 
 4) Configure a phone number for your app
 5) Test by calling your configured number
+
+Transfer a Call - transfer.php
+===========================
+1) Load this file on any web server
+2) Add your account credentials
+3) Login to the Web Console, proceed to "My Apps", set the URL for Calls to http://yourserver/transfer.php 
+4) Configure a phone number for your app
+5) Test by calling your configured number
